@@ -4,13 +4,22 @@
 
 Thank you for participating in the workshop! Let's recap some of the key takeways that we've learned:
 
-- ...
-- ...
-- ...
-
-## References
+- We learned how to create a Kubernetes cluster using Cluster API Provider Packet.
+- We learned how to configure Cloud Provider Equinix Metal to set up service load balancers for us.
+- We learned how to deploy a sample application to our Kubernetes cluster.
 
 ## Next Steps
+
+- You may wish to delete your kubernetes cluster to avoid incurring any costs. You can do this by running the following command:
+
+  ```shell
+  export KUBECONFIG=kubeconfig-kind
+  kubectl delete cluster my-lbaas-demo
+  ```
+
+  Then verify that the machines are deleted from your project.
+
+- You can also delete the entire project. This will delete all resources in the project, including the machines and the project itself.
 
 ## Resources
 

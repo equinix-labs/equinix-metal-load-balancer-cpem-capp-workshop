@@ -1,7 +1,7 @@
-site_name: "Workshop: Equinix Labs"
+site_name: "Workshop: Equinix Labs LBaaS CPEM CAPP"
 
-repo_url: https://github.com/equinix-labs/equinix-labs-workshop
-repo_name: equinix-labs/equinix-labs-workshop
+repo_url: https://github.com/equinix-labs/equinix-metal-load-balancer-cpem-capp-workshop
+repo_name: equinix-labs/equinix-metal-load-balancer-cpem-capp-workshop
 edit_uri: blob/main/docs
 
 extra_css:
@@ -51,7 +51,7 @@ extra:
   social:
     - icon: simple/equinixmetal
       link: https://deploy.equinix.com
-    - icon: fontawesome/brands/twitter 
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/@equinixmetal
     - icon: fontawesome/brands/github
       link: https://github.com/equinix-labs

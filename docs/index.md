@@ -17,9 +17,10 @@ The goals of this workshop are:
 This workshop is split into four parts:
 
 <!-- TEMPLATE USER: rename part filenames and titles below to match the titles within part files -->
-| Part | Title                               | Duration   |
-| ---- | ----------------------------------- | ---------- |
-| 1    | [Setup](./parts/part1.md)           | 10 minutes |
-| 2    | [Provisioning](./parts/part2.md)    | 10 minutes |
-| 3    | [Application](./parts/part3.md)     | 8 minutes  |
-| 4    | [Conclusion](./parts/conclusion.md) | 2 minutes  |
+
+| Part | Title                                | Duration   |
+| ---- | ------------------------------------ | ---------- |
+| 1    | [Application](./parts/2-lbaas.md)    | 10 minutes |
+| 1    | [LBaaS with CAPP](./parts/2-capp.md) | 10 minutes |
+| 3    | [LBaaS with CPEM](./parts/3-cpem.md) | 10 minutes |
+| 4    | [Conclusion](./parts/conclusion.md)  | 2 minutes  |
