@@ -11,9 +11,10 @@ nav:
   - Introduction: index.md
 
   - Parts:
-      - 1. Part 1: parts/part1.md
-      - 2. Part 2: parts/part2.md
-      - 3. Part 3: parts/part3.md
+      - 1. Part 1: parts/1-prerequisites.md
+      - 2. Part 2: parts/2-capp.md
+      - 3. Part 3: parts/3-cpem.md
+      - 4. Part 4: parts/4-conclusion.md
 
   - Conclusion: parts/conclusion.md
 
