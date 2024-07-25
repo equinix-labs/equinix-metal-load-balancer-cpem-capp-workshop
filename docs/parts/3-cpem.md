@@ -117,5 +117,5 @@ We'll use helm to do the deployment.
 
 Before proceeding to the next part let's take a few minutes to discuss what we did. Here are some questions to start the discussion.
 
-- ...
-- ...
+- What is Cloud Provider Equinix Metal?
+- What is the purpose of the cloud-sa.json file?
