@@ -1,6 +1,6 @@
 <!-- See https://squidfunk.github.io/mkdocs-material/reference/ -->
 
-# Part 1: Setup
+# Part 2: Deploy Cluster
 
 ## Steps
 

@@ -11,9 +11,9 @@ nav:
   - Introduction: index.md
 
   - Parts:
-      - 1. Prerequisites: parts/1-prerequisites.md
-      - 2. Deploy Cluster: parts/2-capp.md
-      - 3. Load Balanced App: parts/3-cpem.md
+      - 1. Account and API Key: parts/1-account-api-key.md
+      - 2. Deploy Cluster: parts/2-deploy-cluster.md
+      - 3. Load Balanced App: parts/3-deploy-app.md
       - 4. Conclusion: parts/4-conclusion.md
 
   - Conclusion: parts/conclusion.md

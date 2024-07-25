@@ -19,9 +19,9 @@ This workshop is split into four parts:
 
 <!-- TEMPLATE USER: rename part filenames and titles below to match the titles within part files -->
 
-| Part | Title                                 | Duration   |
-| ---- | ------------------------------------- | ---------- |
-| 1    | [Application](./parts/2-lbaas.md)     | 10 minutes |
-| 1    | [LBaaS with CAPP](./parts/2-capp.md)  | 30 minutes |
-| 3    | [LBaaS with CPEM](./parts/3-cpem.md)  | 20 minutes |
-| 4    | [Conclusion](./parts/4-conclusion.md) | 2 minutes  |
+| Part | Title                                                     | Duration   |
+| ---- | --------------------------------------------------------- | ---------- |
+| 1    | [Account and API Key Setup](./parts/1-account-api-key.md) | 10 minutes |
+| 1    | [LBaaS with CAPP](./parts/2-deploy-cluster.md)            | 30 minutes |
+| 3    | [LBaaS with CPEM](./parts/3-deploy-app.md)                | 20 minutes |
+| 4    | [Conclusion](./parts/4-conclusion.md)                     | 2 minutes  |

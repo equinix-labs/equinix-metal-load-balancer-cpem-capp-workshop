@@ -1,6 +1,6 @@
 <!-- See https://squidfunk.github.io/mkdocs-material/reference/ -->
 
-# Part 2: Provision
+# Part 3: Deploy Application
 
 ## Steps
 
