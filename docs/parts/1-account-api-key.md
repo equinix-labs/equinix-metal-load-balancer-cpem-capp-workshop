@@ -37,25 +37,6 @@ To create a new user API key, access your user Profile in the Equinix Metal cons
 
 ![Equinix Console API keys section screenshot](../images/profile-api-keys-screenshot.png)
 
-### 3. Install Tools
-
-This will vary based on your OS and chosen installation method. Below is how to do it with the [homebrew](https://brew.sh/) package manager (`brew`) on MacOS.
-
-```shell
-brew install docker
-brew install kind
-brew install helm
-brew install kubernetes-cli
-```
-
-Unfortunately, `clusterctl` doesn't have a brew package, so we'll use a binary install for it.
-
-```shell
-curl -L https://github.com/kubernetes-sigs/cluster-api/releases/download/v1.7.4/clusterctl-darwin-amd64 -o clusterctl
-chmod +x ./clusterctl
-sudo mv ./clusterctl /usr/local/bin/clusterctl
-```
-
 ## Discussion
 
 Before proceeding to the next part let's take a few minutes to discuss what we did. Here are some questions to start the discussion.
