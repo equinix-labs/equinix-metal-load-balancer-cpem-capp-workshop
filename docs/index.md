@@ -8,9 +8,10 @@ Equinix Labs offers workshops, proof of concepts, and tools for exploring and bo
 
 The goals of this workshop are:
 
-- Become familiar with the Equinix digital infrastructure
-- Provision the infrastructure services
-- Start and test out a sample application.
+- Become familiar with Equinix Metal Load Balancers inside our Kubernetes integrations
+- Provision a Cluster API based cluster using bare metal servers with an Equinix Metal Load Balancer in front of its control plane nodes.
+- Configure Cloud Provider Equinix Metal to be able to deploy serviced based load balancers inside your kubernetes cluster.
+- Deploy a simple NGINX service and expose it using the Equinix Metal Load Balancer.
 
 ## Workshop agenda
 
