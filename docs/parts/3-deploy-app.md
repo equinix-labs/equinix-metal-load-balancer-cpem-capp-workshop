@@ -63,17 +63,6 @@ As part of creating our Kubernetes cluster in the last section, Cluster API Prov
 
 ### 2. Deploy NGINX
 
-We'll deploy ingress-nginx as an application that can test out the load balancer. Ingress-nginx is an ingress application commonly used in kubernetes deployments to set up load balancers in front of back end applications.
-
-We'll use helm to do the deployment.
-
-1. Install ingress-nginx
-
-    ```shell
-    helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
-    helm install ingress-nginx ingress-nginx/ingress-nginx --namespace ingress-nginx --create-namespace
-    ```
-
 1. Deploy a sample application
 
     Here we'll deploy a sample application to test the load balancer. We'll use the nginx deployment example from the Kubernetes documentation. This will set up a website that we can access through the load balancer.
