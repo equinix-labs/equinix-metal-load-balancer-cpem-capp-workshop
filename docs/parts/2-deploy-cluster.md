@@ -248,13 +248,11 @@ my-lbaas-demo-worker-a-tmjck-bggv9   Ready    <none>          27m   v1.30.2
 my-lbaas-demo-worker-a-tmjck-nr5zk   Ready    <none>          30m   v1.30.2
 ```
 
-### 7. Validate Load Balancing between the control plane nodes
-
-TODO: Add instructions for validating the load balancer between the control plane nodes.
-
 ### 8. We're done
 
-Your cluster is now up and running and ready for you to deploy your applications to it. Which we'll do in the next step when we configure the cluster for service based load balancing.
+We've successfully deployed a Kubernetes cluster with a highly available control plane on Equinix Metal using Cluster API Provider Packet. Your cluster is now up and running and ready for you to deploy your applications to it. Which we'll do in the next step when we configure the cluster for service based load balancing.
+
+For more information on what it means to have a highly available control plane, see the [Kubernetes documentation](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/ha-topology/#stacked-etcd-topology) about a stacked etcd topology, which is what we've deployed here.
 
 ### Common issues that may arise
 
