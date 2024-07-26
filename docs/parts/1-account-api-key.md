@@ -37,6 +37,24 @@ To create a new user API key, access your user Profile in the Equinix Metal cons
 
 ![Equinix Console API keys section screenshot](../images/profile-api-keys-screenshot.png)
 
+Copy the API key and save it in a safe place. You will need it later.
+
+### 3. Get your Project ID
+
+To get your project ID, click on the `Projects` tab in the Equinix Metal console. You will see a list of projects you have access to. Click on the project you want to use for this workshop. Click on the `Project Settings` tab and you will see the project ID.
+
+![Equinix Console projects section screenshot](../images/projectid.jpeg)
+
+Copy the project ID and save it in a safe place. You will need it later.
+
+### 4. Create an SSH key
+
+Follow the documentation for creating and adding an SSH key to your account [here](https://metal.equinix.com/developers/docs/account/ssh-keys/).
+
+We'll use this key to access the machines we create in the workshop and Cluster API will need it as part of its configuration.
+
+Copy the _public_ SSH key and save it in a safe place. You will need it later.
+
 ## Discussion
 
 Before proceeding to the next part let's take a few minutes to discuss what we did. Here are some questions to start the discussion.
