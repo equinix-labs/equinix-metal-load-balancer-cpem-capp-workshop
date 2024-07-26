@@ -49,7 +49,7 @@ Copy the project ID and save it in a safe place. You will need it later.
 
 ### 4. Create an SSH key
 
-Follow the documentation for creating and adding an SSH key to your account [here](https://metal.equinix.com/developers/docs/account/ssh-keys/).
+Follow the documentation for creating and adding an SSH key to your account [here](https://deploy.equinix.com/developers/docs/metal/identity-access-management/ssh-keys/).
 
 We'll use this key to access the machines we create in the workshop and Cluster API will need it as part of its configuration.
 
