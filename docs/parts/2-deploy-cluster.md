@@ -68,7 +68,7 @@ kind create cluster --name capp
 
 The output should look like the following:
 
-```shell
+```console
 Creating cluster "capp" ...
 ✓ Ensuring node image (kindest/node:v1.30.0) 🖼
 ✓ Preparing nodes 📦
@@ -86,13 +86,13 @@ Thanks for using kind! 😊
 
 If you're on a freshly installed Linux box like we are, you're kubectl should default to accessing the cluster you just created. You can verify this by running:
 
-```text
-> kubectl get nodes
+```shell
+kubectl get nodes
 ```
 
 Which will have the following output
 
-```shell
+```console
 NAME                 STATUS     ROLES           AGE   VERSION
 capp-control-plane   NotReady   control-plane   15s   v1.30.0
 ```
@@ -128,7 +128,7 @@ clusterctl init --infrastructure=packet
 
 The output looks something like the following:
 
-```shell
+```console
 Fetching providers
 Installing cert-manager Version="v1.15.1"
 Waiting for cert-manager to be available...
@@ -164,7 +164,7 @@ Let's validate that the cluster was created successfully.
 First check the status of the cluster and ensure it says `Provisioned` in the PHASE column.
 
 ```shell
-> kubectl get cluster
+$ kubectl get cluster
 NAME            CLUSTERCLASS   PHASE         AGE   VERSION
 my-lbaas-demo                  Provisioned   19m
 ```
@@ -172,7 +172,7 @@ my-lbaas-demo                  Provisioned   19m
 Next, check the status of the machines in the cluster. You should see the control plane and worker say `Running` in the PHASE column. Make sure you have the right count of control plane and worker nodes, for this example you should have 3 control plane nodes and 2 worker nodes.
 
 ```shell
-> kubectl get machines
+$ kubectl get machines
 NAME                                 CLUSTER         NODENAME                             PROVIDERID                                            PHASE     AGE   VERSION
 my-lbaas-demo-control-plane-br5xj    my-lbaas-demo   my-lbaas-demo-control-plane-br5xj    equinixmetal://f23a7719-57fb-48ff-81a7-564d36b1b869   Running   10m   v1.30.2
 my-lbaas-demo-control-plane-mmm5j    my-lbaas-demo   my-lbaas-demo-control-plane-mmm5j    equinixmetal://8693714a-0e9d-4d9c-81e1-5c4fdaec7a43   Running   20m   v1.30.2
@@ -195,7 +195,7 @@ export KUBECONFIG=kubeconfig
 Now we can run kubectl commands against the cluster. For example, to get the nodes in the cluster:
 
 ```shell
-kubectl get nodes
+$ kubectl get nodes
 NAME                                 STATUS     ROLES           AGE   VERSION
 my-lbaas-demo-control-plane-br5xj    NotReady   control-plane   11m   v1.30.2
 my-lbaas-demo-control-plane-mmm5j    NotReady   control-plane   24m   v1.30.2
@@ -218,7 +218,7 @@ helm install calico projectcalico/tigera-operator --namespace tigera-operator --
 Wait about 30 seconds for the calico pods to start up, then run the following command to check that they're all running.
 
 ```shell
-kubectl get pods -n calico-system
+$ kubectl get pods -n calico-system
 NAME                                       READY   STATUS    RESTARTS   AGE
 calico-kube-controllers-85cd86bb8b-hjd6n   1/1     Running   0          63s
 calico-node-474qq                          1/1     Running   0          63s
@@ -239,7 +239,7 @@ csi-node-driver-x6ptt                      2/2     Running   0          63s
 Now you can check the nodes again and they should be `Ready`.
 
 ```shell
-kubectl get nodes
+$ kubectl get nodes
 NAME                                 STATUS   ROLES           AGE   VERSION
 my-lbaas-demo-control-plane-br5xj    Ready    control-plane   22m   v1.30.2
 my-lbaas-demo-control-plane-mmm5j    Ready    control-plane   34m   v1.30.2
