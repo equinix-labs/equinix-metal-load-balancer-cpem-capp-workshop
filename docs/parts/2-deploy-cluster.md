@@ -117,7 +117,7 @@ export KUBERNETES_VERSION=1.30.2
 export METRO=da
 export PACKET_API_KEY=<YOUR_API_KEY>
 export PROJECT_ID=<YOUR_PROJECT_ID>
-export SSH_KEY=<YOUR_SSH_KEY>
+export SSH_KEY=<YOUR_PUBLIC_SSH_KEY_CONTENTS> # for example $(<$HOME/.ssh/id_rsa.pub)
 ```
 
 Now we can install Cluster API Provider Packet into our local Kubernetes cluster.
