@@ -14,9 +14,7 @@ nav:
       - 1. Account and API Key: parts/1-account-api-key.md
       - 2. Deploy Cluster: parts/2-deploy-cluster.md
       - 3. Deploy App: parts/3-deploy-app.md
-      - 4. Conclusion: parts/4-conclusion.md
-
-  - Conclusion: parts/conclusion.md
+      - Conclusion: parts/conclusion.md
 
 theme:
   name: material
