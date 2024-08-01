@@ -22,6 +22,6 @@ This workshop is split into four parts:
 | Part | Title                                                     | Duration   |
 | ---- | --------------------------------------------------------- | ---------- |
 | 1    | [Account and API Key Setup](./parts/1-account-api-key.md) | 10 minutes |
-| 1    | [LBaaS with CAPP](./parts/2-deploy-cluster.md)            | 30 minutes |
+| 2    | [LBaaS with CAPP](./parts/2-deploy-cluster.md)            | 30 minutes |
 | 3    | [LBaaS with CPEM](./parts/3-deploy-app.md)                | 20 minutes |
 | 4    | [Conclusion](./parts/conclusion.md)                       | 2 minutes  |
